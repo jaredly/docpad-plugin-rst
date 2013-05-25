@@ -1,0 +1,40 @@
+{
+  "name": "docpad-plugin-yourpluginname",
+  "version": "2.0.0",
+  "description": "DocPad plugin that adds the ability to render rst to markdown",
+  "homepage": "https://github.com/jabapyth/docpad-plugin-rst",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "rst",
+    "restructuredtext",
+    "rest"
+  ],
+  "dependencies": {
+    "rst2mdown": "*",
+    "marked": "*"
+  },
+  "author": "Jared Forsyth <jared@jaredforsyth.com>",
+  "maintainers": [
+    "Jared Forsyth <jared@jaredforsyth.com>"
+  ],
+  "contributors": [
+    "Jared Forsyth <jared@jaredforsyth.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/jabapyth/docpad-plugin-rst/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabapyth/docpad-plugin-rst.git"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  },
+  "main": "./src/rst.plugin.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
